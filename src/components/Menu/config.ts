@@ -43,12 +43,17 @@ const config: MenuEntry[] = [
   {
     label: 'Roadmap',
     icon: 'RoadmapIcon',
-    href: 'https://BitBlocksdefi.gitbook.io/bitblocks-finance/roadmap',
+    href: 'https://bitblocks-finance.gitbook.io/bitblocks-finance/roadmap',
   },
   {
     label: 'old BBFI',
     icon: 'GroupsIcon',
     href: 'https://old.bitblocks.finance',
+  },
+  {
+    label: 'Swap BBFI→BBKFI',
+    icon: 'MoreIcon',
+    href: 'https://bitblocksproject.gitbook.io/bitblocks-finance/tokenomics/how-to-swap-from-oldbbfi-to-bbkfi',
   },
   {
     label: 'Tools',
@@ -61,7 +66,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Docs',
-        href: 'https://bitblocksproject.gitbook.io/bitblocks-finance/',
+        href: 'https://bitblocks-finance.gitbook.io/bitblocks-finance/',
       },
       {
         label: 'Github',
