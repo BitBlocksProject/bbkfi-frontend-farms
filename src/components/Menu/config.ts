@@ -26,6 +26,36 @@ const config: MenuEntry[] = [
     href: '/farms',
   },
   {
+    label: 'Blocks Factory',
+    icon: 'PoolIcon',
+    href: '/nests',
+  },
+  {
+    label: 'Lottery (Coming Soon)',
+    icon: 'TicketIcon',
+    href: '#'
+  },
+  {
+    label: 'Buy BBKFI',
+    icon: 'IfoIcon',
+    href: 'https://exchange.bitblocks.finance//#/swap?inputCurrency=BNB&outputCurrency=0xfc8e68e30350c6603d3d29fcc8e676380c28fcf4',
+  },
+  {
+    label: 'Roadmap',
+    icon: 'RoadmapIcon',
+    href: 'https://BitBlocksdefi.gitbook.io/bitblocks-finance/roadmap',
+  },
+  {
+    label: 'old BBFI',
+    icon: 'GroupsIcon',
+    href: 'https://old.bitblocks.finance',
+  },
+  {
+    label: 'Tools',
+    icon: 'NftIcon',
+    href: 'https://bitblocksfinance.web.app',
+  },
+  {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
