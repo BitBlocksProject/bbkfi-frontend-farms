@@ -56,19 +56,19 @@ const config: MenuEntry[] = [
     href: 'https://bitblocks-finance.gitbook.io/bitblocks-finance/roadmap',
   },
   {
-    label: 'old BBFI',
-    icon: 'GroupsIcon',
-    href: 'https://old.bitblocks.finance',
-  },
-  {
-    label: 'Swap BBFI→BBKFI',
-    icon: 'MoreIcon',
-    href: 'https://bitblocksproject.gitbook.io/bitblocks-finance/tokenomics/how-to-swap-from-oldbbfi-to-bbkfi',
-  },
-  {
     label: 'Tools',
     icon: 'NftIcon',
-    href: 'https://bitblocksfinance.web.app',
+    items: [
+      {
+        label: 'Lp Worth calculator',
+        href: 'https://bitblocksfinance.web.app/calc.html',
+      },
+      {
+        label: 'Farm stats',
+        href: 'https://bitblocksfinance.web.app/farm.html',
+      },
+
+    ],
   },
   {
     label: 'Info',
@@ -88,6 +88,16 @@ const config: MenuEntry[] = [
       },
 
     ],
+  },
+  {
+    label: 'oldBBFI website',
+    icon: 'MoreIcon',
+    href: 'https://old.bitblocks.finance',
+  },
+  {
+    label: 'Swap BBFI→BBKFI',
+    icon: 'MoreIcon',
+    href: 'https://bitblocks-finance.gitbook.io/bitblocks-finance/old-bbfi/how-to-swap-from-oldbbfi-to-bbkfi',
   },
 ]
 
