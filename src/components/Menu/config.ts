@@ -41,6 +41,16 @@ const config: MenuEntry[] = [
     href: 'https://exchange.bitblocks.finance//#/swap?inputCurrency=BNB&outputCurrency=0xfc8e68e30350c6603d3d29fcc8e676380c28fcf4',
   },
   {
+    label: '+ BBKFI to Metamask',
+    icon: 'LayerIcon',
+    href: 'https://cutt.ly/addbbkfi',
+  },
+  {
+    label: '+ wBBK to Metamask',
+    icon: 'LayerIcon',
+    href: 'https://cutt.ly/addwbbk',
+  },
+  {
     label: 'Roadmap',
     icon: 'RoadmapIcon',
     href: 'https://bitblocks-finance.gitbook.io/bitblocks-finance/roadmap',
