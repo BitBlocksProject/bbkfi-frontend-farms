@@ -64,7 +64,7 @@ const config: MenuEntry[] = [
         href: 'https://bitblocksfinance.web.app/calc.html',
       },
       {
-        label: 'Farm status',
+        label: 'Farm stats',
         href: 'https://bitblocksfinance.web.app/farm.html',
       },
 
