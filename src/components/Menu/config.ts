@@ -75,6 +75,14 @@ const config: MenuEntry[] = [
     icon: 'InfoIcon',
     items: [
       {
+        label: 'Price Chart',
+        href: 'https://goswapp-bsc.web.app/0xfc8e68e30350c6603d3d29fcc8e676380c28fcf4'
+      },
+      {
+        label: 'DappRadar (Stats)',
+        href: 'https://dappradar.com/binance-smart-chain/defi/bitblocks-finance'
+      },
+      {
         label: 'Docs',
         href: 'https://bitblocks-finance.gitbook.io/bitblocks-finance/',
       },
