@@ -107,11 +107,6 @@ const config: MenuEntry[] = [
     icon: 'MoreIcon',
     href: 'https://old.bitblocks.finance',
   },
-  {
-    label: 'Swap BBFI→BBKFI',
-    icon: 'MoreIcon',
-    href: 'https://bitblocks-finance.gitbook.io/bitblocks-finance/old-bbfi/how-to-swap-from-oldbbfi-to-bbkfi',
-  },
 ]
 
 export default config
