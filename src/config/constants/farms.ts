@@ -35,6 +35,22 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
   {
+    pid: 18,
+    risk: 5,
+    lpSymbol: 'WBBK-BBKFI LP',
+    lpAddresses: {
+      97: '',
+      56: '0xf475131322f3Ae8028F5dD1eC618d56590D3A681',
+    },
+    tokenSymbol: 'WBBK',
+    tokenAddresses: {
+      97: '',
+      56: '0x9045b0eda6b6a556cf9b3d81c2db47411714f847',
+    },
+    quoteTokenSymbol: QuoteToken.BBKFI,
+    quoteTokenAdresses: contracts.cake,
+  },
+  {
     pid: 2,
     risk: 5,
     lpSymbol: 'WBBK-BUSD LP',
