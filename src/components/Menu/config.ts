@@ -71,6 +71,11 @@ const config: MenuEntry[] = [
     ],
   },
   {
+    label: 'Audit by TechRate (Coming Soon)',
+    icon: 'AuditIcon',
+    href: '#',
+  },
+  {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
