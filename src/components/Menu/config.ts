@@ -31,9 +31,9 @@ const config: MenuEntry[] = [
     href: '/nests',
   },
   {
-    label: 'Lottery (Coming Soon)',
+    label: 'Lottery',
     icon: 'TicketIcon',
-    href: '#'
+    href: '/lottery'
   },
   {
     label: 'Buy BBKFI',
