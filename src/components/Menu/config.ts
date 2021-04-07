@@ -31,7 +31,7 @@ const config: MenuEntry[] = [
     href: '/nests',
   },
   {
-    label: 'Lottery (Coming soon)',
+    label: 'Lottery',
     icon: 'TicketIcon',
     href: '/lottery'
   },
@@ -101,11 +101,6 @@ const config: MenuEntry[] = [
     label: 'Audit by TechRate',
     icon: 'AuditIcon',
     href: 'https://bitblocks.finance/files/Techrate-audit.pdf',
-  },
-  {
-    label: 'oldBBFI website',
-    icon: 'MoreIcon',
-    href: 'https://old.bitblocks.finance',
   },
 ]
 
