@@ -260,6 +260,23 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
+    pid: 20,
+    risk: 3,
+    isTokenOnly: true,
+    lpSymbol: 'WBBK',
+    lpAddresses: {
+      97: '',
+      56: '0x9AA308a70122Bc6453054E83285ed0dea507e967', // WBBK-BUSD LP
+    },
+    tokenSymbol: 'WBBK',
+    tokenAddresses: {
+      97: '',
+      56: '0x9045b0eda6b6a556cf9b3d81c2db47411714f847',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
     pid: 10,
     risk: 3,
     isTokenOnly: true,
