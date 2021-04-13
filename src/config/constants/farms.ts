@@ -179,6 +179,39 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.cake,
   },
   {
+    pid: 21,
+    risk: 5,
+    lpSymbol: 'SAFEMOON-BBKFI LP',
+    lpAddresses: {
+      97: '',
+      56: '0x877ad4722f32FC7e0f3F07769EF5FdDD11Cc3993',
+    },
+    tokenSymbol: 'SAFEMOON',
+    tokenAddresses: {
+      97: '',
+      56: '0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3',
+    },
+    quoteTokenSymbol: QuoteToken.BBKFI,
+    quoteTokenAdresses: contracts.cake,
+  },
+  {
+    pid: 22,
+    risk: 5,
+    lpSymbol: 'SAFEMOON-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x9adc6Fb78CEFA07E13E9294F150C1E8C1Dd566c0',
+    },
+    tokenSymbol: 'SAFEMOON',
+    tokenAddresses: {
+      97: '',
+      56: '0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+
+  {
     pid: 16,
     risk: 5,
     lpSymbol: 'REAU-BBKFI LP',
