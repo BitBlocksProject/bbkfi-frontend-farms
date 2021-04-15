@@ -44,7 +44,7 @@ const BuyTicketModal: React.FC<BuyTicketModalProps> = ({ max, onDismiss }) => {
         Math.floor(Math.random() * maxNumber) + 1,
         Math.floor(Math.random() * maxNumber) + 1,
       ])
-      const txHash = await onMultiBuy('15', numbers)
+      const txHash = await onMultiBuy('150', numbers)
       // user rejected tx or didn't go thru
       if (txHash) {
         setRequestedBuy(false)
@@ -63,7 +63,7 @@ const BuyTicketModal: React.FC<BuyTicketModalProps> = ({ max, onDismiss }) => {
   }, [maxTickets])
 
   const cakeCosts = (amount: string): number => {
-    return +amount * 15
+    return +amount * 150
   }
   return (
     <Modal title={TranslateString(450, 'Enter amount of tickets to buy')} onDismiss={onDismiss}>
@@ -76,8 +76,8 @@ const BuyTicketModal: React.FC<BuyTicketModalProps> = ({ max, onDismiss }) => {
         availableSymbol="BBKFI"
       />
       <div>
-        <Tips>{TranslateString(456, 'Your amount must be a multiple of 15 BBKFI')}</Tips>
-        <Tips>{TranslateString(458, '1 Ticket = 15 BBKFI')}</Tips>
+        <Tips>{TranslateString(456, 'Your amount must be a multiple of 150 BBKFI')}</Tips>
+        <Tips>{TranslateString(458, '1 Ticket = 150 BBKFI')}</Tips>
       </div>
       <div>
         <Announce>
