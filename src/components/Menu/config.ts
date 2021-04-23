@@ -102,6 +102,11 @@ const config: MenuEntry[] = [
     icon: 'AuditIcon',
     href: 'https://bitblocks.finance/files/Techrate-audit.pdf',
   },
+  {
+    label: 'BitBlocks Website',
+    icon: 'More',
+    href: 'https://bitblocksproject.com/',
+  },
 ]
 
 export default config
