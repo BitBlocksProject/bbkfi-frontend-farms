@@ -18,6 +18,14 @@ const config: MenuEntry[] = [
         label: "Liquidity",
         href: "http://exchange.bitblocks.finance//#/pool",
       },
+      {
+        label: "Exchange V1",
+        href: "http://v1exchange.bitblocks.finance//#/swap",
+      },
+      {
+        label: "Liquidity V1",
+        href: "http://v1exchange.bitblocks.finance//#/pool",
+      },
     ],
   },
   {
@@ -104,7 +112,7 @@ const config: MenuEntry[] = [
   },
   {
     label: 'BitBlocks Website',
-    icon: 'More',
+    icon: 'MoreIcon',
     href: 'https://bitblocksproject.com/',
   },
 ]
