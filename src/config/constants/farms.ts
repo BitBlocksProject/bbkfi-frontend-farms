@@ -3,9 +3,26 @@ import { FarmConfig, QuoteToken } from './types'
 
 const farms: FarmConfig[] = [
   {
+    pid: 31,
+    risk: 5,
+    lpSymbol: 'BBKFI-BNB LP V2',
+    lpAddresses: {
+      97: '',
+      56: '0xCfd8010223dFa66e80669c803533312C7C102605',
+    },
+    tokenSymbol: 'BBKFI',
+    tokenAddresses: {
+      97: '',
+      56: '0xfc8e68e30350c6603d3d29fcc8e676380c28fcf4',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+
+  {
     pid: 0,
     risk: 5,
-    lpSymbol: 'BBKFI-BUSD LP',
+    lpSymbol: 'BBKFI-BUSD LP V1',
     lpAddresses: {
       97: '',
       56: '0x6154a783E73Ac4A9C8fcb015C36BcE6CE1Ee6D1e',
@@ -19,9 +36,25 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
+    pid: 30,
+    risk: 5,
+    lpSymbol: 'BBKFI-BUSD LP V2',
+    lpAddresses: {
+      97: '',
+      56: '0xeE56e52923B4d4d15cfE14F281BbA471416C534d',
+    },
+    tokenSymbol: 'BBKFI',
+    tokenAddresses: {
+      97: '',
+      56: '0xfc8e68e30350c6603d3d29fcc8e676380c28fcf4',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
     pid: 1,
     risk: 5,
-    lpSymbol: 'BBKFI-BNB LP',
+    lpSymbol: 'BBKFI-BNB LP V1',
     lpAddresses: {
       97: '',
       56: '0x87188D72cB8c2C2D275958Ff6417dd89b87691E1',
@@ -37,7 +70,7 @@ const farms: FarmConfig[] = [
   {
     pid: 18,
     risk: 5,
-    lpSymbol: 'WBBK-BBKFI LP',
+    lpSymbol: 'WBBK-BBKFI LP V1',
     lpAddresses: {
       97: '',
       56: '0xf475131322f3Ae8028F5dD1eC618d56590D3A681',
@@ -51,9 +84,25 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.cake,
   },
   {
+    pid: 29,
+    risk: 5,
+    lpSymbol: 'WBBK-BBKFI LP V2',
+    lpAddresses: {
+      97: '',
+      56: '0xF385F92C0372A8653b6697e7d6380127Da848631',
+    },
+    tokenSymbol: 'WBBK',
+    tokenAddresses: {
+      97: '',
+      56: '0x9045b0eda6b6a556cf9b3d81c2db47411714f847',
+    },
+    quoteTokenSymbol: QuoteToken.BBKFI,
+    quoteTokenAdresses: contracts.cake,
+  },
+  {
     pid: 2,
     risk: 5,
-    lpSymbol: 'WBBK-BUSD LP',
+    lpSymbol: 'WBBK-BUSD LP V1',
     lpAddresses: {
       97: '',
       56: '0x9AA308a70122Bc6453054E83285ed0dea507e967',
@@ -67,9 +116,25 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
+    pid: 28,
+    risk: 5,
+    lpSymbol: 'WBBK-BUSD LP V2',
+    lpAddresses: {
+      97: '',
+      56: '0x398b497EF5d1994dE8FC3eb2271d042aA095359F',
+    },
+    tokenSymbol: 'WBBK',
+    tokenAddresses: {
+      97: '',
+      56: '0x9045b0eda6b6a556cf9b3d81c2db47411714f847',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
     pid: 3,
     risk: 5,
-    lpSymbol: 'WBBK-BNB LP',
+    lpSymbol: 'WBBK-BNB LP V1',
     lpAddresses: {
       97: '',
       56: '0x51d810d76e46c5acd47f5d22f3dbcc1951eecdc0',
@@ -83,9 +148,25 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
   {
+    pid: 27,
+    risk: 5,
+    lpSymbol: 'WBBK-BNB LP V2',
+    lpAddresses: {
+      97: '',
+      56: '0x9f12Cd74Fc23FDD98269d7f26474b9DD3b00A488',
+    },
+    tokenSymbol: 'WBBK',
+    tokenAddresses: {
+      97: '',
+      56: '0x9045b0eda6b6a556cf9b3d81c2db47411714f847',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
     pid: 4,
     risk: 2,
-    lpSymbol: 'BNB-BUSD LP',
+    lpSymbol: 'BNB-BUSD LP V1',
     lpAddresses: {
       97: '',
       56: '0x1b96b92314c44b159149f7e0303511fb2fc4774f',
@@ -101,7 +182,7 @@ const farms: FarmConfig[] = [
   {
     pid: 5,
     risk: 2,
-    lpSymbol: 'ETH-BNB LP',
+    lpSymbol: 'ETH-BNB LP V1',
     lpAddresses: {
       97: '',
       56: '0x70d8929d04b60af4fb9b58713ebcf18765ade422',
@@ -117,7 +198,7 @@ const farms: FarmConfig[] = [
   {
     pid: 6,
     risk: 5,
-    lpSymbol: 'DAI-BUSD LP',
+    lpSymbol: 'DAI-BUSD LP V1',
     lpAddresses: {
       97: '',
       56: '0x3aB77e40340AB084c3e23Be8e5A6f7afed9D41DC',
@@ -133,7 +214,7 @@ const farms: FarmConfig[] = [
   {
     pid: 13,
     risk: 5,
-    lpSymbol: 'USDC-BUSD LP',
+    lpSymbol: 'USDC-BUSD LP V1',
     lpAddresses: {
       97: '',
       56: '0x680dd100e4b394bda26a59dd5c119a391e747d18',
@@ -149,7 +230,7 @@ const farms: FarmConfig[] = [
   {
     pid: 14,
     risk: 5,
-    lpSymbol: 'WLQX-BNB LP',
+    lpSymbol: 'WLQX-BNB LP V1',
     lpAddresses: {
       97: '',
       56: '0x96c3Bef501F5ddC82e0717839Dba5F4e1F75429d',
@@ -165,7 +246,7 @@ const farms: FarmConfig[] = [
   {
     pid: 15,
     risk: 5,
-    lpSymbol: 'WLQX-BBKFI LP',
+    lpSymbol: 'WLQX-BBKFI LP V1',
     lpAddresses: {
       97: '',
       56: '0x6d66A8c919663AcdFBC7975294185295ADCf7aE5',
@@ -179,9 +260,25 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.cake,
   },
   {
+    pid: 26,
+    risk: 5,
+    lpSymbol: 'WLQX-BBKFI LP V2',
+    lpAddresses: {
+      97: '',
+      56: '0x7D220fD92D59ab32B5Bc1533685213B2cD4f2F93',
+    },
+    tokenSymbol: 'WLQX',
+    tokenAddresses: {
+      97: '',
+      56: '0x4495e673eE53c61CE79c35D5e299733639362aEc',
+    },
+    quoteTokenSymbol: QuoteToken.BBKFI,
+    quoteTokenAdresses: contracts.cake,
+  },
+  {
     pid: 21,
     risk: 5,
-    lpSymbol: 'SAFEMOON-BBKFI LP',
+    lpSymbol: 'SAFEMOON-BBKFI LP V1',
     lpAddresses: {
       97: '',
       56: '0x877ad4722f32FC7e0f3F07769EF5FdDD11Cc3993',
@@ -197,7 +294,7 @@ const farms: FarmConfig[] = [
   {
     pid: 22,
     risk: 5,
-    lpSymbol: 'SAFEMOON-BNB LP',
+    lpSymbol: 'SAFEMOON-BNB LP V1',
     lpAddresses: {
       97: '',
       56: '0x9adc6Fb78CEFA07E13E9294F150C1E8C1Dd566c0',
@@ -212,9 +309,42 @@ const farms: FarmConfig[] = [
   },
 
   {
+    pid: 23,
+    risk: 5,
+    lpSymbol: 'SAFEMOON-BNB LP V2',
+    lpAddresses: {
+      97: '',
+      56: '0xfF3dD404aFbA451328de089424C74685bf0a43C9',
+    },
+    tokenSymbol: 'SAFEMOON',
+    tokenAddresses: {
+      97: '',
+      56: '0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 24,
+    risk: 5,
+    lpSymbol: 'SAFEMOON-BBKFI LP V2',
+    lpAddresses: {
+      97: '',
+      56: '0x81D3b62B7E90fe05d90a63Cb114e29E43d4EE6Ab',
+    },
+    tokenSymbol: 'SAFEMOON',
+    tokenAddresses: {
+      97: '',
+      56: '0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3',
+    },
+    quoteTokenSymbol: QuoteToken.BBKFI,
+    quoteTokenAdresses: contracts.cake,
+  },
+
+  {
     pid: 16,
     risk: 5,
-    lpSymbol: 'REAU-BBKFI LP',
+    lpSymbol: 'REAU-BBKFI LP V1',
     lpAddresses: {
       97: '',
       56: '0xf654CBCfE6dF2F6311C048BbAb16a5790BA43997',
@@ -228,9 +358,25 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.cake,
   },
   {
+    pid: 25,
+    risk: 5,
+    lpSymbol: 'REAU-BBKFI LP V2',
+    lpAddresses: {
+      97: '',
+      56: '0x670cf57518D747329968a279Ca3Ab7345cBF7222',
+    },
+    tokenSymbol: 'REAU',
+    tokenAddresses: {
+      97: '',
+      56: '0x4c79b8c9cB0BD62B047880603a9DEcf36dE28344',
+    },
+    quoteTokenSymbol: QuoteToken.BBKFI,
+    quoteTokenAdresses: contracts.cake,
+  },
+  {
     pid: 17,
     risk: 5,
-    lpSymbol: 'REAU-BNB LP',
+    lpSymbol: 'REAU-BNB LP V1',
     lpAddresses: {
       97: '',
       56: '0x7Cc956136C36e7Fbd6B74C07d9E40Eccd3779249',
@@ -246,7 +392,7 @@ const farms: FarmConfig[] = [
   {
     pid: 7,
     risk: 5,
-    lpSymbol: 'BTCB-BNB LP',
+    lpSymbol: 'BTCB-BNB LP V1',
     lpAddresses: {
       97: '',
       56: '0x7561EEe90e24F3b348E1087A005F78B4c8453524',
@@ -262,7 +408,7 @@ const farms: FarmConfig[] = [
   {
     pid: 8,
     risk: 5,
-    lpSymbol: 'CAKE-BNB LP',
+    lpSymbol: 'CAKE-BNB LP V1',
     lpAddresses: {
       97: '',
       56: '0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6',
