@@ -67,6 +67,9 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
         if (farm.quoteTokenSymbol === QuoteToken.BNB) {
           totalValue = totalValue.times(bnbPrice);
         }
+        if (farm.quoteTokenSymbol === QuoteToken.BBKFI) {
+          totalValue = totalValue.times(cakePrice);
+        }
 
         if(totalValue.comparedTo(0) > 0){
           apy = apy.div(totalValue);

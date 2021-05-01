@@ -3,6 +3,10 @@ export default {
     56: '0xfC8E68E30350c6603D3d29fCc8E676380C28FCf4',
     97: '',
   },
+  bbkfi: {
+    56: '0xfC8E68E30350c6603D3d29fCc8E676380C28FCf4',
+    97: '',
+  },
   masterChef: {
     56: '0xAF7769F4347cc88eD50191eaca7c3ab380097b06',
     97: '',

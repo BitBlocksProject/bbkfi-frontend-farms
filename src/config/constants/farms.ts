@@ -81,7 +81,7 @@ const farms: FarmConfig[] = [
       56: '0x9045b0eda6b6a556cf9b3d81c2db47411714f847',
     },
     quoteTokenSymbol: QuoteToken.BBKFI,
-    quoteTokenAdresses: contracts.cake,
+    quoteTokenAdresses: contracts.bbkfi,
   },
   {
     pid: 29,
@@ -97,7 +97,7 @@ const farms: FarmConfig[] = [
       56: '0x9045b0eda6b6a556cf9b3d81c2db47411714f847',
     },
     quoteTokenSymbol: QuoteToken.BBKFI,
-    quoteTokenAdresses: contracts.cake,
+    quoteTokenAdresses: contracts.bbkfi,
   },
   {
     pid: 2,
@@ -177,7 +177,7 @@ const farms: FarmConfig[] = [
       56: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
     },
     quoteTokenSymbol: QuoteToken.BBKFI,
-    quoteTokenAdresses: contracts.cake,
+    quoteTokenAdresses: contracts.bbkfi,
   },
   {
     pid: 8,
@@ -289,7 +289,7 @@ const farms: FarmConfig[] = [
       56: '0x4495e673eE53c61CE79c35D5e299733639362aEc',
     },
     quoteTokenSymbol: QuoteToken.BBKFI,
-    quoteTokenAdresses: contracts.cake,
+    quoteTokenAdresses: contracts.bbkfi,
   },
   {
     pid: 26,
@@ -305,7 +305,7 @@ const farms: FarmConfig[] = [
       56: '0x4495e673eE53c61CE79c35D5e299733639362aEc',
     },
     quoteTokenSymbol: QuoteToken.BBKFI,
-    quoteTokenAdresses: contracts.cake,
+    quoteTokenAdresses: contracts.bbkfi,
   },
   {
     pid: 21,
@@ -321,7 +321,7 @@ const farms: FarmConfig[] = [
       56: '0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3',
     },
     quoteTokenSymbol: QuoteToken.BBKFI,
-    quoteTokenAdresses: contracts.cake,
+    quoteTokenAdresses: contracts.bbkfi,
   },
   {
     pid: 22,
@@ -370,7 +370,7 @@ const farms: FarmConfig[] = [
       56: '0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3',
     },
     quoteTokenSymbol: QuoteToken.BBKFI,
-    quoteTokenAdresses: contracts.cake,
+    quoteTokenAdresses: contracts.bbkfi,
   },
 
   {
@@ -387,7 +387,7 @@ const farms: FarmConfig[] = [
       56: '0x4c79b8c9cB0BD62B047880603a9DEcf36dE28344',
     },
     quoteTokenSymbol: QuoteToken.BBKFI,
-    quoteTokenAdresses: contracts.cake,
+    quoteTokenAdresses: contracts.bbkfi,
   },
   {
     pid: 25,
@@ -403,7 +403,7 @@ const farms: FarmConfig[] = [
       56: '0x4c79b8c9cB0BD62B047880603a9DEcf36dE28344',
     },
     quoteTokenSymbol: QuoteToken.BBKFI,
-    quoteTokenAdresses: contracts.cake,
+    quoteTokenAdresses: contracts.bbkfi,
   },
   {
     pid: 17,
