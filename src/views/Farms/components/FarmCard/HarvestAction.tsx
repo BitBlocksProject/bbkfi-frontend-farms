@@ -29,11 +29,13 @@ const HarvestAction: React.FC<FarmCardActionsProps> = ({ earnings, pid }) => {
   const displayBalance = rawEarningsBalance.toLocaleString()
 
   // BITBLOCKS
+  // Taylor Added BBKFI pool Compound button
+  
   return (
     <Flex mb='8px' justifyContent='space-between' alignItems='center'>
       <Heading color={rawEarningsBalance === 0 ? 'textDisabled' : 'text'}>{displayBalance}</Heading>
       <BalanceAndCompound>
-        {pid === 141 ?
+        {pid === 9 ?
           <Button
             disabled={rawEarningsBalance === 0 || pendingTx}
             size='sm'
