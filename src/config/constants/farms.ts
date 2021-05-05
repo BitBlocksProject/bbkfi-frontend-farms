@@ -276,6 +276,22 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
+    pid: 36,
+    risk: 5,
+    lpSymbol: 'BTCB-BNB LP V2',
+    lpAddresses: {
+      97: '',
+      56: '0x61EB789d75A95CAa3fF50ed7E47b96c132fEc082',
+    },
+    tokenSymbol: 'BTCB',
+    tokenAddresses: {
+      97: '',
+      56: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
     pid: 14,
     risk: 5,
     lpSymbol: 'WLQX-BNB LP V1',
@@ -428,6 +444,22 @@ const farms: FarmConfig[] = [
     lpAddresses: {
       97: '',
       56: '0x7Cc956136C36e7Fbd6B74C07d9E40Eccd3779249',
+    },
+    tokenSymbol: 'REAU',
+    tokenAddresses: {
+      97: '',
+      56: '0x4c79b8c9cB0BD62B047880603a9DEcf36dE28344',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 37,
+    risk: 5,
+    lpSymbol: 'REAU-BNB LP V2',
+    lpAddresses: {
+      97: '',
+      56: '0xB7f1E7227607DEf335c3051f0Cb394DEe8CcFbB8',
     },
     tokenSymbol: 'REAU',
     tokenAddresses: {
